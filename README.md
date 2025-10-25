@@ -22,3 +22,16 @@ A simple, all-in-one tool to download **YouTube videos, music (MP3), and Instagr
 Open Command Prompt and run:
 ```bash
 pip install yt-dlp
+```
+
+### ⚙️ FFmpeg Setup
+
+FFmpeg is required for audio extraction.
+
+**Windows:**
+1. Download from [ffmpeg.org/download.html](https://ffmpeg.org/download.html)
+2. Extract → move to `C:\Program Files\ffmpeg`
+3. Add `C:\Program Files\ffmpeg\bin` to system **PATH**
+4. Verify installation:
+   ```bash
+   ffmpeg -version
